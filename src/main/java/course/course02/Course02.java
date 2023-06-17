@@ -1,4 +1,4 @@
-package course;
+package course.course02;
 
 public class Course02 {
 
