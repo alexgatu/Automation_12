@@ -4,27 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e175ffb4-16ce-4983-9293-2ca0d4149501" name="Changes" comment="HTML basic structure for register">
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/course03_04/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/course03_04/CarBrands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/course03_04/Course04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/course03_04/Dealer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/course03_04/EqTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/course03_04/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/course03_04/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/course03_04/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/course03_04/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e175ffb4-16ce-4983-9293-2ca0d4149501" name="Changes" comment="Course04 - inheritance, encapsulation, static variable">
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/course05/Browsers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/course05/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/course05/Course05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/course05/Dacia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/course05/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/course05/NewCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/course05/Truck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/course/course03/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course/course03_04/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/course/course03/Draw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course/course03_04/Draw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/course/course03/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course/course03_04/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/course/course03/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course/course03_04/Methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/course/course03/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course/course03_04/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/course/course03/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course/course03_04/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/course/course03/Shapes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course/course03_04/Shapes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/course/course03/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course/course03_04/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/course/course03_04/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course/course03_04/Car.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +24,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -51,19 +42,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.Course05">
     <configuration name="Course04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="course.course03_04.Course04" />
       <module name="Automation_12" />
@@ -77,8 +68,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Course05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course.course05.Course05" />
+      <module name="Automation_12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="course.course05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Course05" />
         <item itemvalue="Application.Course04" />
       </list>
     </recent_temporary>
@@ -106,7 +111,15 @@
       <option name="project" value="LOCAL" />
       <updated>1685177558904</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Course04 - inheritance, encapsulation, static variable">
+      <option name="closed" value="true" />
+      <created>1687602642428</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687602642428</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,7 +136,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Course02_HTML_CSS_JS_InitialCommit" />
     <MESSAGE value="HTML basic structure for register" />
-    <option name="LAST_COMMIT_MESSAGE" value="HTML basic structure for register" />
+    <MESSAGE value="Course04 - inheritance, encapsulation, static variable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Course04 - inheritance, encapsulation, static variable" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -132,6 +146,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/course/course03_04/Course04.java</url>
           <line>50</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/course/course05/Course05.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/course/course05/Course05.java</url>
+          <line>141</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
