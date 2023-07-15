@@ -1,11 +1,13 @@
-package course.course06_07;
+package junit;
 
+import course.course06_07.Calculator;
 import org.junit.*;
 
 public class CalculatorTestClass {
 
     static double totalSum = 0;
     double result = 1;
+
     Calculator calculator = new Calculator();
 
     @Before

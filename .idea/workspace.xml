@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e175ffb4-16ce-4983-9293-2ca0d4149501" name="Changes" comment="Course04 - inheritance, encapsulation, static variable">
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/course05/Browsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/course05/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/course05/Course05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/course05/Dacia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/course05/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/course05/NewCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/course05/Truck.java" afterDir="false" />
+    <list default="true" id="e175ffb4-16ce-4983-9293-2ca0d4149501" name="Changes" comment="Course05 - interfaces, abstract class and colletions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/course/course03_04/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course/course03_04/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/course/course06_07/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course/course06_07/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/course/course06_07/CalculatorTestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/junit/CalculatorTestClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +48,12 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Course05">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="junit" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CalculatorTestClass.testDivideByZeroWithoutFail">
     <configuration name="Course04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="course.course03_04.Course04" />
       <module name="Automation_12" />
@@ -81,8 +80,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculatorTestClass.testDivideByZeroWithoutFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Automation_12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="junit" />
+      <option name="MAIN_CLASS_NAME" value="junit.CalculatorTestClass" />
+      <option name="METHOD_NAME" value="testDivideByZeroWithoutFail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorTestClass.testDivideByZeroWithoutFail" />
         <item itemvalue="Application.Course05" />
         <item itemvalue="Application.Course04" />
       </list>
@@ -119,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1687602642428</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Course05 - interfaces, abstract class and colletions">
+      <option name="closed" value="true" />
+      <created>1688205886965</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688205886965</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,7 +161,8 @@
     <MESSAGE value="Course02_HTML_CSS_JS_InitialCommit" />
     <MESSAGE value="HTML basic structure for register" />
     <MESSAGE value="Course04 - inheritance, encapsulation, static variable" />
-    <option name="LAST_COMMIT_MESSAGE" value="Course04 - inheritance, encapsulation, static variable" />
+    <MESSAGE value="Course05 - interfaces, abstract class and colletions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Course05 - interfaces, abstract class and colletions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
