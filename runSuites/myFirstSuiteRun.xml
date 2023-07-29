@@ -3,13 +3,13 @@
 <suite name="Test Login-LogOut">
     <test thread-count="5" name="Login-LogOut">
         <classes>
-            <class name="MyFistTestNGTest">
+            <class name="OldTests.MyFistTestNGTest">
                 <methods>
                     <include name="login"/>
                     <include name="logout"/>
                     <include name="closeBrowser"/>
                 </methods>
-            </class> <!-- MyFistTestNGTest -->
+            </class> <!-- OldTests.MyFistTestNGTest -->
         </classes>
     </test>
 </suite>
