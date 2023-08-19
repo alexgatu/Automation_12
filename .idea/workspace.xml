@@ -4,19 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e175ffb4-16ce-4983-9293-2ca0d4149501" name="Changes" comment="Course06 - add example for testNG">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/BrowserUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/ConfigUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/ConstantUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+    <list default="true" id="e175ffb4-16ce-4983-9293-2ca0d4149501" name="Changes" comment="Course09 - start building aut framework">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ObjectModels/AccountModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ObjectModels/LoginModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/LoginDataSourceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/ExcelReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/Tools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Data/testdata.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Data/testdata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Data/testdata.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Data/testdata.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runSuites/myFirstSuiteRun.xml" beforeDir="false" afterPath="$PROJECT_DIR$/runSuites/myFirstSuiteRun.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runSuites/runSuitesWithGrups.xml" beforeDir="false" afterPath="$PROJECT_DIR$/runSuites/runSuitesWithGrups.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OldTests/CalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MyFistTestNGTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OldTests/MyFistTestNGTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,20 +47,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "last_opened_file_path": "C:/Users/florin.barbuceanu/IdeaProjects/Automation_12/src/test/resources/Data",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\florin.barbuceanu\IdeaProjects\Automation_12\src\test\resources\Data" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -72,19 +77,12 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="junit" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Utils" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest.login">
-    <configuration name="C:/Users/florin.barbuceanu/IdeaProjects/Automation_12/runSuites/runSuitesWithGrups.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation_12" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/runSuites/runSuitesWithGrups.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.login" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.LoginDataSourceTests.loginWithSQLAsDataSource">
+    <configuration name="LoginDataSourceTests.loginWithCSVAsDataSource" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_12" />
       <extension name="coverage">
         <pattern>
@@ -93,8 +91,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.LoginTest" />
-      <option name="METHOD_NAME" value="login" />
+      <option name="MAIN_CLASS_NAME" value="Tests.LoginDataSourceTests" />
+      <option name="METHOD_NAME" value="loginWithCSVAsDataSource" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -102,11 +100,72 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyFistTestNGTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginDataSourceTests.loginWithJsonAsDataSource" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_12" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OldTests.MyFistTestNGTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.LoginDataSourceTests" />
+      <option name="METHOD_NAME" value="loginWithJsonAsDataSource" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginDataSourceTests.loginWithSQLAsDataSource" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.LoginDataSourceTests" />
+      <option name="METHOD_NAME" value="loginWithSQLAsDataSource" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginDataSourceTests.loginWithXLSXAsDataSource" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.LoginDataSourceTests" />
+      <option name="METHOD_NAME" value="loginWithXLSXAsDataSource" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginDataSourceTests.loginWithXMLAsDataSource" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.LoginDataSourceTests" />
+      <option name="METHOD_NAME" value="loginWithXMLAsDataSource" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -118,18 +177,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="OldTests.MyFistTestNGTest" />
       <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyFistTestNGTest.testExpectedException" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation_12" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OldTests.MyFistTestNGTest" />
-      <option name="METHOD_NAME" value="testExpectedException" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -149,25 +196,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyFistTestNGTest.verifyComputeCalculatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation_12" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OldTests.MyFistTestNGTest" />
-      <option name="METHOD_NAME" value="verifyComputeCalculatorTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTest.login" />
-        <item itemvalue="TestNG.MyFistTestNGTest.verifyComputeCalculatorTest" />
-        <item itemvalue="TestNG.MyFistTestNGTest.testExpectedException" />
-        <item itemvalue="TestNG.C:/Users/florin.barbuceanu/IdeaProjects/Automation_12/runSuites/runSuitesWithGrups.xml" />
-        <item itemvalue="TestNG.MyFistTestNGTest" />
+        <item itemvalue="TestNG.LoginDataSourceTests.loginWithSQLAsDataSource" />
+        <item itemvalue="TestNG.LoginDataSourceTests.loginWithXLSXAsDataSource" />
+        <item itemvalue="TestNG.LoginDataSourceTests.loginWithCSVAsDataSource" />
+        <item itemvalue="TestNG.LoginDataSourceTests.loginWithJsonAsDataSource" />
+        <item itemvalue="TestNG.LoginDataSourceTests.loginWithXMLAsDataSource" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +261,23 @@
       <option name="project" value="LOCAL" />
       <updated>1689413599296</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Course09 - start building aut framework">
+      <option name="closed" value="true" />
+      <created>1690616072554</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1690616072554</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Course09 - start building aut framework">
+      <option name="closed" value="true" />
+      <created>1690621318744</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1690621318744</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,7 +298,8 @@
     <MESSAGE value="Course05 - interfaces, abstract class and colletions" />
     <MESSAGE value="Course06 - move tests to test folder" />
     <MESSAGE value="Course06 - add example for testNG" />
-    <option name="LAST_COMMIT_MESSAGE" value="Course06 - add example for testNG" />
+    <MESSAGE value="Course09 - start building aut framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Course09 - start building aut framework" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -268,9 +320,14 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Tests/LoginTest.java</url>
-          <line>24</line>
+          <url>file://$PROJECT_DIR$/src/test/java/Tests/BaseTest.java</url>
+          <line>43</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Tests/LoginDataSourceTests.java</url>
+          <line>143</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
