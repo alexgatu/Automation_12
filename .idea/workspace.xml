@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e175ffb4-16ce-4983-9293-2ca0d4149501" name="Changes" comment="Course09 - start building aut framework">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ObjectModels/AccountModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ObjectModels/LoginModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/LoginDataSourceTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/ExcelReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/Tools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Data/testdata.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Data/testdata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Data/testdata.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Data/testdata.xml" afterDir="false" />
+    <list default="true" id="e175ffb4-16ce-4983-9293-2ca0d4149501" name="Changes" comment="Course11 - load data from diffrent source">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/course/course08/MyFirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course/course08/MyFirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/BrowserUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +46,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
     "last_opened_file_path": "C:/Users/florin.barbuceanu/IdeaProjects/Automation_12/src/test/resources/Data",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel"
@@ -81,7 +72,7 @@
       <recent name="Utils" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginDataSourceTests.loginWithSQLAsDataSource">
+  <component name="RunManager" selected="TestNG.LoginDataSourceTests.loginWithCSVAsDataSource">
     <configuration name="LoginDataSourceTests.loginWithCSVAsDataSource" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_12" />
       <extension name="coverage">
@@ -198,9 +189,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginDataSourceTests.loginWithCSVAsDataSource" />
         <item itemvalue="TestNG.LoginDataSourceTests.loginWithSQLAsDataSource" />
         <item itemvalue="TestNG.LoginDataSourceTests.loginWithXLSXAsDataSource" />
-        <item itemvalue="TestNG.LoginDataSourceTests.loginWithCSVAsDataSource" />
         <item itemvalue="TestNG.LoginDataSourceTests.loginWithJsonAsDataSource" />
         <item itemvalue="TestNG.LoginDataSourceTests.loginWithXMLAsDataSource" />
       </list>
@@ -277,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690621318744</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Course11 - load data from diffrent source">
+      <option name="closed" value="true" />
+      <created>1692437216557</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1692437216557</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -299,7 +298,8 @@
     <MESSAGE value="Course06 - move tests to test folder" />
     <MESSAGE value="Course06 - add example for testNG" />
     <MESSAGE value="Course09 - start building aut framework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Course09 - start building aut framework" />
+    <MESSAGE value="Course11 - load data from diffrent source" />
+    <option name="LAST_COMMIT_MESSAGE" value="Course11 - load data from diffrent source" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -328,6 +328,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/Tests/LoginDataSourceTests.java</url>
           <line>143</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Tests/LoginDataSourceTests.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
