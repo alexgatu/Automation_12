@@ -9,6 +9,8 @@ public class LoginModel {
     private String userError;
     private String passwordError;
 
+    public LoginModel() {
+    }
 
     public LoginModel(String username, String password, String userError, String passwordError) {
         AccountModel accountM = new AccountModel();

@@ -85,7 +85,7 @@ public class LoginDataSourceTests extends BaseTest {
         List<String[]> csvData = csvReader.readAll();
         int usernamePoz = 0, passwordPoz = 1, userERRPoz = 2, passwordErr = 3;
 
-        for(int i = 0; i < csvData.size(); i++) {
+        for (int i = 0; i < csvData.size(); i++) {
             LoginModel lm = new LoginModel(csvData.get(i)[usernamePoz], csvData.get(i)[passwordPoz], csvData.get(i)[userERRPoz], csvData.get(i)[passwordErr]);
             dp.add(new Object[]{lm});
         }
@@ -104,11 +104,11 @@ public class LoginDataSourceTests extends BaseTest {
         Collection<Object[]> dp = new ArrayList<>();
         File file = new File("src\\test\\resources\\Data\\testdata.xlsx");
         int usernamePoz = 0, passwordPoz = 1, userERRPoz = 2, passwordErr = 3;
-        String[][] excelData = ExcelReader.readExcelFile(file,"",true,true);
+        String[][] excelData = ExcelReader.readExcelFile(file, "", true, true);
 
-        for(int i = 0; i < excelData.length; i++) {
+        for (int i = 0; i < excelData.length; i++) {
             LoginModel lm = new LoginModel(excelData[i][usernamePoz], excelData[i][passwordPoz], excelData[i][userERRPoz],
-            excelData[i][passwordErr]);
+                    excelData[i][passwordErr]);
             dp.add(new Object[]{lm});
         }
 
@@ -124,22 +124,22 @@ public class LoginDataSourceTests extends BaseTest {
     @DataProvider(name = "mysql")
     public Iterator<Object[]> mysqlDpCollection() throws Exception {
 //        show DB connection details
-        System.out.println("Use dbHostname:"+dbHostname);
-        System.out.println("Use dbUser:"+dbUser);
-        System.out.println("Use dbPort:"+dbPort);
-        System.out.println("Use dbSchema:"+dbSchema);
+        System.out.println("Use dbHostname:" + dbHostname);
+        System.out.println("Use dbUser:" + dbUser);
+        System.out.println("Use dbPort:" + dbPort);
+        System.out.println("Use dbSchema:" + dbSchema);
         Collection<Object[]> dp = new ArrayList<>();
 //        db connection
-        Connection connection = DriverManager.getConnection("jdbc:mysql://"+dbHostname+":"+dbPort+
-                "/"+dbSchema, dbUser,dbPassword);
+        Connection connection = DriverManager.getConnection("jdbc:mysql://" + dbHostname + ":" + dbPort +
+                "/" + dbSchema, dbUser, dbPassword);
         Statement statement = connection.createStatement();
         ResultSet resultSet = statement.executeQuery("SELECT * FROM login_negative");
-        while (resultSet.next()){
-           LoginModel lm = new LoginModel(getEscapedElement(resultSet,"username"),
-                   getEscapedElement(resultSet,"password"),
-                   getEscapedElement(resultSet,"usernameErr"),
-                   getEscapedElement(resultSet,"passwordErr"));
-           dp.add(new Object[]{lm});
+        while (resultSet.next()) {
+            LoginModel lm = new LoginModel(getEscapedElement(resultSet, "username"),
+                    getEscapedElement(resultSet, "password"),
+                    getEscapedElement(resultSet, "usernameErr"),
+                    getEscapedElement(resultSet, "passwordErr"));
+            dp.add(new Object[]{lm});
         }
         return dp.iterator();
     }
@@ -148,6 +148,7 @@ public class LoginDataSourceTests extends BaseTest {
     public void loginWithSQLAsDataSource(LoginModel lm) {
         loginLm(lm);
     }
+
     //   login with loginModel
     private void loginLm(LoginModel lm) {
         System.out.println(lm);
